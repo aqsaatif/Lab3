@@ -16,6 +16,9 @@ public class AddressBook {
         }
         return null;
     }
+    public BuddyInfo getBuddy(int index){
+        return addressBook.get(index);
+    }
     public static void main(String[] args){
         System.out.println("Address Book");
         BuddyInfo buddy = new BuddyInfo("Homer", "Carleton", "623");
